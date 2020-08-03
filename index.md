@@ -4,11 +4,11 @@ You can use the [editor on GitHub](https://github.com/g-duclos/scplots/edit/gh-p
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
-```r
+```r, results='asis', echo=TRUE, fig.height=6, fig.width=6, warning=FALSE, message=TRUE
 plot(1:10, 1:10)
 ```
 
-```{r cars}
+```{r cars, results='asis', echo=TRUE, fig.height=6, fig.width=6, warning=FALSE, message=TRUE}
 plot(1:10,1:10)
 ```
 
