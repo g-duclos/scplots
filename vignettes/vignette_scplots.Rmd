@@ -1,0 +1,62 @@
+---
+title: "scplots Tutorial"
+output: github_document
+  df_print: paged
+  highlight: monochrome
+  number_sections: no
+  theme: flatly
+  toc: yes
+  toc_float:
+    collapsed: true
+    smooth_scroll: true
+    scroll_highlight: yes
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+```{r setup}
+library(scplots)
+```
+
+## Dimensionality Reduction
+### sc_dimred
+#### Plotting function to visualize a scatter plot of dimensionality reduction (t-SNE, UMAP, PCA) results that highlight cells based on a phenotypic assignment.
+
+```{r sc_dimred, results='asis', echo=TRUE, fig.height=6, fig.width=6, warning=FALSE, message=TRUE}
+cat("Hey Hey")
+plot(1:10,1:10)
+```
+
+
+### sc_dimred_express
+#### Plotting function to visualize a scatter plot of dimensionality reduction (t-SNE, UMAP, PCA) results that highlight cells based on a phenotypic assignment.
+
+```{r sc_dimred_express, results='asis', echo=TRUE, fig.height=6, fig.width=6, warning=FALSE, message=FALSE}
+cat("Hey Hey")
+plot(1:10,1:10)
+```
+
+
+## Heatmap
+### sc_heatmap
+#### Plotting function to visualize a scatter plot of dimensionality reduction (t-SNE, UMAP, PCA) results that highlight cells based on a phenotypic assignment.
+
+```{r sc_heatmap, results='asis', echo=TRUE, fig.height=6, fig.width=6, warning=FALSE, message=FALSE}
+cat("Hey Hey")
+plot(1:10,1:10)
+```
+
+
+## Table
+### sc_table
+#### For plotting a table
+
+```{r sc_table, results='asis', echo=TRUE, fig.height=6, fig.width=6, warning=FALSE, message=FALSE, dev="png"}
+cat("Hey Hey")
+plot(1:10,1:10)
+```
