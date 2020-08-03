@@ -1,8 +1,17 @@
+---
+title: "Guided Tutorial for 'scplots'"
+output: rmarkdown::html_vignette
+---
+
 ## Welcome to GitHub Pages
 
 You can use the [editor on GitHub](https://github.com/g-duclos/scplots/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+
+```r, results='asis', echo=TRUE, fig.height=6, fig.width=6, warning=FALSE, message=TRUE
+plot(1:10, 1:10)
+```
 
 ```r, results='asis', echo=TRUE, fig.height=6, fig.width=6, warning=FALSE, message=TRUE
 plot(1:10, 1:10)
