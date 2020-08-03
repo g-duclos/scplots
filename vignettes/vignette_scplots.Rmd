@@ -1,15 +1,18 @@
 ---
 title: "scplots Tutorial"
-output: github_document
-  df_print: paged
-  highlight: monochrome
-  number_sections: no
-  theme: flatly
-  toc: yes
-  toc_float:
-    collapsed: true
-    smooth_scroll: true
-    scroll_highlight: yes
+#output: github_document
+date: "`r Sys.Date()`"
+output:
+  html_document:
+    df_print: paged
+    highlight: monochrome
+    number_sections: no
+    theme: flatly
+    toc: yes
+    toc_float:
+      collapsed: true
+      smooth_scroll: true
+      scroll_highlight: yes
 ---
 
 ```{r, include = FALSE}
