@@ -1,0 +1,15 @@
+Package: scplots
+Type: Package
+Title: scplots (single cell plots)
+Version: 0.1.0
+Author: Grant Duclos
+Maintainer: Grant Duclos <grant.duclos@gmail.com>
+Description: Description: Publication-quality plotting functions for single cell RNA-Seq data
+License: GPL-3.0
+Encoding: UTF-8
+LazyData: true
+Imports: 
+    Biobase,
+    pheatmap,
+    vioplot
+RoxygenNote: 7.1.1
